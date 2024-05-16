@@ -25,7 +25,7 @@ import {
                 href={'https://cal.com/devaman26'}
                 className="text-center flex items-center gap-1"
               >
-                <span className="dark:text-white text-2xl">cal.com/sargam</span>
+                <span className="dark:text-white text-2xl">cal.com/devaman</span>
                 <LinkIcon className="dark:text-white" size={25} />
               </Link>
             </div>
