@@ -3,7 +3,7 @@ import { ClipboardCopyIcon } from 'lucide-react';
 import { toast } from 'sonner';
 export const HeroBtn = () => {
   const handleClick = () => {
-    navigator.clipboard.writeText('npx devaman');
+    navigator.clipboard.writeText('npx devamansingh');
     toast('Text has been copied');
   };
 
