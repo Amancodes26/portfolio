@@ -18,8 +18,8 @@ export const projects = [
     {
       name: 'Aman Portfolio',
       desc: 'The website you are currently on. I built this site to showcase my skills and my portfolio',
-      liveLink: 'https://sargam.xyz',
-      githubLink: 'https://github.com/devsargam/sargam.xyz',
+      liveLink: 'https://portfolio-amancodes26s-projects.vercel.app/',
+      githubLink: 'https://github.com/Amancodes26/portfolio',
       coverImg: '/projects/portfolio.png',
       imgs: [],
       tech: [
