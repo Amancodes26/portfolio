@@ -15,7 +15,7 @@ class MyDocument extends Document {
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
-            gtag('config', 'YOUR_GOOGLE_ANALYTICS_ID');
+            gtag('config', 'G-SBWBC4757H');
           `}
         </Head>
         <body>
