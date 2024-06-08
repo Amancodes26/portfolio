@@ -3,6 +3,7 @@ import { Inter } from 'next/font/google';
 import './globals.css';
 import { AnimatedCursor } from '@/components'; 
 import { Nav } from '@/components';
+import { GoogleAnalytics } from '@next/third-parties/google';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
@@ -23,6 +24,7 @@ export default function RootLayout({
           <AnimatedCursor />
           {children}
         </main>
+        <GoogleAnalytics gaId="G-SBWBC4757H" />
       </body>
     </html>
   );

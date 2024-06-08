@@ -1,5 +1,7 @@
 import { ContactMe, HeroBtn, Projects } from '@/components';
 import Skills from '@/components/Skills';
+import { GoogleAnalytics } from '@next/third-parties/google';
+
 export default function Home() {
   return (
     <>
@@ -25,6 +27,7 @@ export default function Home() {
       <Skills />
       <Projects />
       <ContactMe />
+      <GoogleAnalytics gaId="G-SBWBC4757H" />;
     </>
   );
 }
