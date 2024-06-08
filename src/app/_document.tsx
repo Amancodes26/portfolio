@@ -8,15 +8,16 @@ class MyDocument extends Document {
       <Html>
         <Head>
           {/* Add your Google Analytics script here */}
-          <script async src="https://www.googletagmanager.com/gtag/js?id=G-SBWBC4757H"
-          />
-           {(Script as any).id = "ga-setup"}
-          {(Script as any).children = `
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-SBWBC4757H');
-          `}
+          <script> async src="https://www.googletagmanager.com/gtag/js?id=G-SBWBC4757H"
+          </script>
+          <Script id="ga-setup">
+            {`
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-SBWBC4757H');
+            `}
+          </Script>
         </Head>
         <body>
           <Main />
