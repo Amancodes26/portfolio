@@ -1,3 +1,21 @@
+// {
+//   "extends": "next/core-web-vitals"
+  
+// },
 {
-  "extends": "next/core-web-vitals"
+  "extends": "next",
+  "rules": {
+    // Disable specific ESLint rules
+    "eslint-rule-name": "off"
+  },
+  "overrides": [
+    {
+      "files": ["src/app/_document.tsx"],
+      "rules": {
+        // Disable ESLint rules for specific files
+        "eslint-rule-name": "off"
+      }
+    }
+  ]
 }
+

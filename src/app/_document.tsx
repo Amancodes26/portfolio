@@ -1,6 +1,6 @@
 // src/app/_document.tsx
-import Document, { Html, Head, Main, NextScript } from 'next/document';
 import Script from 'next/script';
+import { Html, Head, Main, NextScript } from 'next/document';
 
 class MyDocument extends Document {
   render() {
@@ -8,14 +8,13 @@ class MyDocument extends Document {
       <Html>
         <Head>
           {/* Add your Google Analytics script here */}
-          <script> async src="https://www.googletagmanager.com/gtag/js?id=G-SBWBC4757H"
-          </script>
+          <script async src="https://www.googletagmanager.com/gtag/js?id=G-SBWBC4757H"></script>
           <Script id="ga-setup">
             {`
               window.dataLayer = window.dataLayer || [];
               function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-              gtag('config', 'G-SBWBC4757H');
+              gtag(&#39;js&#39;, new Date());
+              gtag(&#39;config&#39;, &#39;YOUR_GOOGLE_ANALYTICS_ID&#39;);
             `}
           </Script>
         </Head>
