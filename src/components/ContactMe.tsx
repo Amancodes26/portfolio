@@ -54,7 +54,7 @@ import {
                 className="text-center flex items-center gap-1"
               >
                 <span className="dark:text-white text-2xl">
-                  amansngh856@gmail.com
+                  amansngh8586@gmail.com
                 </span>
                 <MailIcon className="dark:text-white" size={25} />
               </Link>
