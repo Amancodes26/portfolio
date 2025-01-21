@@ -18,7 +18,7 @@ export const projects = [
 
   {
     name: " WEB DEV IDE",
-    desc: "WEB DEV IDE is a open source platform which connects user to build their own application using HTML ,CSS ,javascript",
+    desc: "WEB DEV IDE is an open source platform which connects user to build their own application using HTML ,CSS ,javascript",
     liveLink: "https://online-code-editior-6kbv.vercel.app/",
     githubLink: "https://github.com/Amancodes26/ONLINE-CODE-EDITIOR/tree/main",
     coverImg: "/projects/dfgb.png",
