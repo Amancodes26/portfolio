@@ -46,7 +46,7 @@ import {
             </div>
             <div className="flex flex-col items-center">
               <h3 className="text-xl sm:text-2xl md:text-3xl font-bold dark:text-white text-center pt-5">
-                I do check emails regulary
+                I do check emails regularly
               </h3>
               <Link
                 target="_blank"
